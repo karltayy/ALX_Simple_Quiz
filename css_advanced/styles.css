@@ -1,0 +1,83 @@
+@font-face {
+  font-family:Source Sans Pro ;
+  src: url(SourceSansPro-Black.otf);
+}
+
+body {
+    background-image: url(Object.png);
+    width: 1448.15px;
+height: 1055px;
+flex-shrink: 0;
+background-repeat: no-repeat;
+font-family:Source Sans Pro;
+  
+}
+h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+  
+  p {
+    font-family:Source Sans Pro;
+  }
+  span {
+    color: #FFF;
+text-align: center;
+font-family: "Source Sans Pro";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  button{
+    color: #FFF;
+text-align: center;
+font-family: "Source Sans Pro";
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    width: 162px;
+height: 44px;
+flex-shrink: 0;
+border-radius: 22px;
+background: #C271FF;
+  }
+  nav{
+    color: #FFF;
+font-family: "Source Sans Pro";
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  header{
+    width: 1103.408px;
+    height: 29.461px;
+    flex-shrink: 0;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  .navbar a{
+    color: #FFF;
+    text-decoration:none ;
+    padding: 15px;
+    
+  }
+  .navbar li{
+    float: right;
+  }
+  
