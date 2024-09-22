@@ -1,37 +1,228 @@
 @font-face {
-    font-family:Source Sans Pro ;
-    src: url(SourceSansPro-Black.otf);
-  }
-  #bruce {
-    border-radius: 50%;
-  }
-  * {
-    font-family: Source Sans Pro;
-  }
-  body {
-    background-image: url(Object.png);
+  font-family:Source Sans Pro ;
+  src: url(SourceSansPro-Black.otf);
+}
 
-  }
-  nav {
-    width: 100%;
-    height: 75px;
-    line-height: 75px;
-    padding: 0px 100px;
-  }
-  nav .logo {
-    float: left;
-    padding-top: 30px;
-  }
-  nav ul {
-    float: right;
-  }
-  nav ul li {
-    display: inline-block;
-    list-style: none;
-  }
-  nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    padding: 0px 32px;
-  }
+* {
+  font-family: Source Sans Pro;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  list-style-type: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.specific-container h3 {
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.background-section {
+  background-image: url(Object.png);
+  background-position: center;
+  background-size: cover;
+  height: 150vh;
+}
+* {
+  margin: 0%;
+}
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7em;
+  padding-top: 10%;
+}
+.text-container {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+button {
+  border: none;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+  background-color: #c271ff;
+  border-radius: 2em;
+  padding: 18px;
+  color: white;
+}
+.button-container {
+  padding-top: 20px;
+}
+.h2-style h2 {
+  color: white;
+  padding-top: 15%;
+  text-align: center;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8%;
+  padding-top: 5%;
+  color: white;
+}
+.h2-style h2 span {
+  color: #c271ff;
+}
+
+.change-profile {
+  border-radius: 50%;
+}
+.quote-container {
+  background-color: #c271ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+  gap: 20px;
+  color: white;
+}
+.spacing {
+  line-height: 1.5;
+}
+.spacing > h3 {
+  padding-top: 30px;
+}
+.forth-section h2 {
+  text-align: center;
+  color: black;
+  padding: 5% 5%;
+  font-size: 2em;
+}
+.forth-section h2 span {
+  color: #c271ff;
+}
+.color {
+  color: #c271ff;
+}
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  line-height: 25px;
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 70px;
+}
+.profile-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  color: #c271ff;
+}
+.profile-row > img {
+  width: 35px;
+  height: 35px;
+}
+.space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #c271ff;
+}
+.space {
+  padding: 2%;
+}
+.space h3 {
+  padding-bottom: 10px;
+}
+
+.last-star {
+  color: #d8d8d8;
+}
+.membership {
+  background-color: #071629;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+.membership h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #fff;
+}
+.membership h2 span {
+  color: #c271ff; /* Purple for "Free" */
+}
+.icon-item p {
+  line-height: 25px;
+}
+.icon-item h3 {
+  line-height: 3em;
+}
+.first-row {
+  display: flex;
+  line-height: 25px;
+}
+.faq h2 {
+  text-align: center;
+  font-size: 4em;
+  padding: 70px 70px;
+}
+.line-count h3 {
+  padding-bottom: 1em;
+}
+.padding-left {
+  padding-right: 5%;
+  padding-left: 15%;
+}
+.padding-right {
+  padding-right: 15%;
+  padding-left: 5%;
+}
+.top {
+  padding-bottom: 15%;
+}
+footer {
+  background-color: #071629;
+  padding: 5%;
+  align-items: center;
+}
+.flex-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  font-size: 20px;
+  align-items: center;
+}
+.icons i {
+  padding: 5px;
+  border-radius: 50px;
+  margin-left: 15px;
+  background-color: white;
+}
+footer p {
+  text-align: center;
+  color: #767575;
+  padding-top: 50px;
+  font-size: 0.9rem;
+  margin-top: 5%;
+}
