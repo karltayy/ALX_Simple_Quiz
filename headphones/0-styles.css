@@ -103,6 +103,19 @@ flex-shrink: 0;
       .button-container {
         padding-top: 20px;
       }
+      .specific-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .specific-container p {
+        color: #FFF;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+      }
 
 
 
