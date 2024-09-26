@@ -264,9 +264,11 @@ line-height: normal;
     margin: 0px 130px;
 }
 
-
 .contact-form input[type="submit"]:hover {
     background-color: #ff4f41;
+}
+.contact-form {
+    padding-bottom: 130px;
 }
 
 
