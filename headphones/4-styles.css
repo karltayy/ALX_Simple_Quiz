@@ -285,10 +285,20 @@ flex-shrink: 0;
     font-size: 12px;
   }
   .flex-icon {
+    padding-top: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-
+.flex-icon img {
+    width: 161px;
+height: 32px;
+flex-shrink: 0;
+}
+.icons img {
+    width: 130px;
+height: 30px;
+flex-shrink: 0;
+}
 
 }
