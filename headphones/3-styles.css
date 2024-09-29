@@ -393,11 +393,11 @@ height: 650px;
 flex-shrink: 0;
       }
       .results-quote-container {
+        padding-top: 141px;
         display: flex;
         justify-content: center;
       }
       .results-quote-container h3 {
-        padding-top: 141px;
         color: #FFF;
 text-align: center;
 font-size: 32px;
@@ -418,6 +418,18 @@ font-weight: 400;
 line-height: 26px; /* 162.5% */
 padding-top: 40px;
      }
+
+     .polygon {
+      width: 190px;
+      height: 190px;
+      padding-right: 76px;
+    }
+     .polygon-container {
+      display: flex;
+      flex-direction: row;
+     }
+
+
 .contact-heading {
     display: flex;
     justify-content: center;

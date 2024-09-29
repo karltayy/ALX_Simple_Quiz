@@ -157,9 +157,8 @@ ul {
         background-image: url(headphones_hero_1.jpg);
         background-position: center;
         background-size: cover;
-        height: 150vh;
         width: 1400px;
-height: 800px;
+height: 1080px;
 flex-shrink: 0;
     }
     a {

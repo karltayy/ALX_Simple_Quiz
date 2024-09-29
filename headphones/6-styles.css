@@ -457,11 +457,10 @@ flex-shrink: 0;
       }
       .results-quote-container {
         padding-top: 141px;
-        display: flex;
         justify-content: center;
       }
       .results-quote-container h3 {
-
+       
         color: #FFF;
 text-align: center;
 font-size: 32px;
@@ -483,14 +482,35 @@ line-height: 26px; /* 162.5% */
 padding-top: 40px;
      }
      .polygon {
-      width: 190px;
-      height: 190px;
-      padding-right: 76px;
-    }
-     .polygon-container {
-      display: flex;
-      flex-direction: row;
-     }
+        width: 190px;
+        height: 190px;
+        padding-right: 76px;
+      }
+      .pentagon {
+        width: 120px;
+        height: 120px;
+        background: #f66;
+        clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .space {
+        padding-right: 76px;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 107px;
+      }
+       .polygon-container {
+        display: flex;
+        flex-direction: row;
+       }
+  
 
 
 
