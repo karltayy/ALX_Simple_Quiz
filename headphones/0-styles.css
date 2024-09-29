@@ -13,6 +13,11 @@ nav img {
     width: 147px;
     height: 32px;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 260px;
+}
 ul {
     list-style: none;
     
@@ -24,19 +29,28 @@ ul li {
     background-image: url(headphones_hero_1.jpg);
     background-position: center;
     background-size: cover;
-    height: 150vh;
-    width: 375px;
-height: 869px;
-
-
+  height: 869px;
+}
+.main-heading {
+  display: flex;
+  justify-content: center;
 }
 
 .hero-1 h1 {
 color: #fff;
-font-size: 22px;   
+font-size: 32px;  
+text-align: center;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
 }
 .hero-1 p {
     color: #fff;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 button {
@@ -49,6 +63,7 @@ background: #FF6565;
 .button-container{
     display: flex;
     justify-content: center;
+    padding-bottom: 65px;
 }
 
 
