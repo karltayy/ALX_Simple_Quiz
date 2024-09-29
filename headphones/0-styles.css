@@ -68,6 +68,35 @@ background: #FF6565;
 
 
 @media only screen and (min-width:768px) {
+  .background-section {
+    background-image: url(headphones_hero_1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    width: 768px;
+height: 800px;
+flex-shrink: 0;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    list-style-type: none;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+  margin-left: 60px;
+  margin-right: 60px; 
+  }
+
 
 }
 

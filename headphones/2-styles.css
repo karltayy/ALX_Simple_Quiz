@@ -20,23 +20,41 @@ ul {
 ul li {
     text-decoration: none;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 260px;
+}
+.main-heading {
+  display: flex;
+  justify-content: center;
+}
 .background-section {
     background-image: url(headphones_hero_1.jpg);
     background-position: center;
     background-size: cover;
     height: 150vh;
-    width: 375px;
+    width: 480px;
 height: 869px;
 
 
 }
 
 .hero-1 h1 {
-color: #fff;
-font-size: 22px;   
-}
-.hero-1 p {
+  color: #fff;
+  font-size: 32px;  
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+  }
+  .hero-1 p {
     color: #fff;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 button {
@@ -47,12 +65,159 @@ border-radius: 22px;
 background: #FF6565;
 }
 .button-container{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 65px;
+}
+.quote-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+}
+.quote-container h3 {
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  .WWD-container p {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding-bottom: 88px;
+    }
+    .icon-container h3 {
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 26px; /* 144.444% */
+      }
+      .icon-container p {
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 185.714% */
+        padding-bottom: 70px;
+        }
+        .specific-icon-container {
+          display: flex;
+          justify-content: center;
+          }
+.results-quote-container {
+  padding-top: 125px;
+  display: flex;
+  justify-content: center;
+}          
+.results-quote-container h3 {
+  color: #FFF;
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.results-background-section {
+  background-image: url(headphones_hero_2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  width: 480px;
+height: 1491px;
+flex-shrink: 0;
+}
+.results-container p {
+  color: #FFF;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.polygon-container img {
+  width: 190px;
+height: 190px;
+flex-shrink: 0;
+padding-bottom: 50px;
+}
+.polygon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 
 @media only screen and (min-width:768px) {
+  .background-section {
+    background-image: url(headphones_hero_1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+    width: 768px;
+height: 800px;
+flex-shrink: 0;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    list-style-type: none;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+  margin-left: 60px;
+  margin-right: 60px; 
+  }
+
+  .results-background-section {
+    background-image: url(headphones_hero_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    width: 768px;
+  height: 876px;
+  flex-shrink: 0;
+  }
+
+  .main-SI-container {
+    width: 207px;
+    height: 207px;
+   }
+   .icon-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-gap: 97px;
+    padding: 80px 148px;
+  
+   }
+
+  .polygon {
+    width: 190px;
+    height: 190px;
+  }
+  .polygon-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-gap: 20px;
+    padding: 0px 156px;
+    padding-top: 76px;
+
+
+  }
+
 
 }
 
