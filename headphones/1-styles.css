@@ -20,6 +20,15 @@ ul {
 ul li {
     text-decoration: none;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 260px;
+}
+.main-heading {
+  display: flex;
+  justify-content: center;
+}
 .background-section {
     background-image: url(headphones_hero_1.jpg);
     background-position: center;
@@ -27,16 +36,23 @@ ul li {
     height: 150vh;
     width: 375px;
 height: 869px;
-
-
 }
 
 .hero-1 h1 {
-color: #fff;
-font-size: 22px;   
-}
-.hero-1 p {
+  color: #fff;
+  font-size: 32px;  
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+  }
+  .hero-1 p {
     color: #fff;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 button {
@@ -47,8 +63,48 @@ border-radius: 22px;
 background: #FF6565;
 }
 .button-container{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 65px;
+}
+.quote-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+}
+.quote-container h3 {
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.WWD-container p {
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-bottom: 88px;
+}
+.icon-container h3 {
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 144.444% */
+}
+.icon-container p {
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 185.714% */
+padding-bottom: 70px;
+}
+.specific-icon-container {
+display: flex;
+justify-content: center;
 }
 
 
