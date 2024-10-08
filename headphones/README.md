@@ -1,1 +1,0 @@
-This is a project to implement a fully functional and responsive design from scratch using HTML & CSS only.
